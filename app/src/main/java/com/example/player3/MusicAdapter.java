@@ -20,9 +20,7 @@ public class MusicAdapter extends ArrayAdapter<Music> {
         Music m = getItem(position);
         View view = LayoutInflater.from(getContext()).inflate(resourceId,parent,false);
         TextView musicName = view.findViewById(R.id.musicName);
-
         musicName.setText(m.getNameM());
-
         return view;
     }
 }

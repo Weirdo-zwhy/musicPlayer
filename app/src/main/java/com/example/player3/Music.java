@@ -1,8 +1,8 @@
 package com.example.player3;
 
 public class Music {
-    private String name;
-    private String path;
+    private String name;//歌曲名字
+    private String path;//歌曲路径
 
     public Music(String name, String path){
         this.name = name;
